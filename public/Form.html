@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Details</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="formstyle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="acadscript.js"></script>
+    <script src="contactscript.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <form>
+                        <div class="form-group">
+                            <label for="first-name">First Name</label>
+                            <input type="text" class="form-control" id="first-name" placeholder="First Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" class="form-control" id="last-name" placeholder="Last Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="Email">E-Mail</label>
+                            <input type="text" class="form-control" id="Email" placeholder="something@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Address</label>
+                            <textarea rows="3" class="form-control" id="address" placeholder="Enter Your Address"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-number">Contact Number</label>
+                            <input type="number" class="form-control" id="contact-number" placeholder="9999999999">
+                        </div>
+                        <a class="material-icons" id="save-contact">save</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" id="academic-card">
+                    <div class="row">
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                            <h3>Academic Details</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+                                <i class="fas fa-save" id="save-academic"></i>
+                            </div>
+                        </div>
+                        <div class="col-4 col-sm-4 col-md-4 col-lg-4">
+                            <i class="fas fa-plus-square" id="add-academic"></i>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-8 col-sm-8 col-md-8 col-lg-8">
+                                <h5>Card</h5>
+                            </div>
+                        </div>
+                    <form>
+                        <div class="form-group">
+                            <label for="degree-1">Degree/Course</label>
+                            <input type="text" id="degree-0" class="form-control" placeholder="B.Tech/B.E">
+                        </div>
+                        <div class="form-group">
+                            <label for="institute-name-0">Institution</label>
+                            <input type="text" id="institute-name-0" class="form-control">
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="type-marks-0" id="percentage" value="Percentage">
+                                    <label class="form-check-label" for="percentage">Percentage</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="type-marks-0" id="cgpa" value="CGPA">
+                                    <label class="form-check-label" for="cgpa">CGPA</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="institute-marks-0">Marks</label>
+                            <input type="number" id="institute-marks-0" class="form-control">
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="duration-course-0" id="pursuing" value="Pursuing">
+                                    <label class="form-check-label" for="pursuing">Pursuing</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="duration-course-0" id="graduated" value="Graduated">
+                                    <label class="form-check-label" for="graduated">Graduated</label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        Edit, format, download, and print your resume from one place—choose from multiple professional formats, including downloadable PDF and Microsoft Word.
+                    </div>
+                </div>
+            </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            Make resume writing simple with 1000s of job-specific bullet points created by our experts.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            Make resume writing simple with 1000s of job-specific bullet points created by our experts.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            Make resume writing simple with 1000s of job-specific bullet points created by our experts.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            Make resume writing simple with 1000s of job-specific bullet points created by our experts.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            Make resume writing simple with 1000s of job-specific bullet points created by our experts.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            Make resume writing simple with 1000s of job-specific bullet points created by our experts.
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    </div>
+</div>
+</body>
+</html>

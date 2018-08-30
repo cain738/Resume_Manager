@@ -1,0 +1,44 @@
+.container{
+    position: relative;
+}
+.card{
+    padding: 10px;
+    top: 10px;
+}
+
+@media screen and (min-width:480px) and (max-width: 720px)  {
+    .card{
+        position: absolute;
+        width: 70%;
+        left: 15%;
+        top: 20%;
+        bottom: 20%;
+    }
+    .container{
+        top: 100px;
+    }
+}
+@media screen and (min-width:721px) and (max-width: 900px)  {
+    .card{
+        position: absolute;
+        width: 60%;
+        left: 20%;
+        top: 20%;
+        bottom: 20%;
+    }
+    .container{
+        top: 100px;
+    }
+}
+@media screen and (min-width:901px) and (max-width: 1366px)  {
+    .card{
+        position: absolute;
+        width: 40%;
+        left: 30%;
+        top: 20%;
+        bottom: 20%;
+    }
+    .container{
+        top: 100px;
+    }
+}
